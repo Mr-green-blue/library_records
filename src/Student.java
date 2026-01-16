@@ -1,4 +1,4 @@
-public class Student extends Member {
+public class Student extends Member {  //inheritance and child class
     private String member;
     Student(String memberld,String name,String member) {
         super(memberld, name);

@@ -27,8 +27,9 @@ public class Main {
     members.add(l3);
     members.add(l4);
 
-
-
-
+    //polymorphism
+    for(Member mem:members){
+        System.out.println(mem);
+    }
     }
 }

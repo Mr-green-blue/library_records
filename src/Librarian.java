@@ -1,4 +1,4 @@
-public class Librarian extends Member {
+public class Librarian extends Member {  //inheritance and child class
     private String employeed;
 
     Librarian(String memberld, String name, String employeed) {

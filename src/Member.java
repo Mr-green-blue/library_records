@@ -1,4 +1,4 @@
-public class Member {
+public class Member {    //parent class
     private String memberld;
     private String name;
     Member(String memberld, String name){
