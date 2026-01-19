@@ -20,6 +20,9 @@ public class Book {
     void get_author(){
         System.out.println(this.author);
     }
+    boolean get_issued(){
+        return this.issued;
+    }
     void set_id(int id){
         this.id=id;
     }
@@ -34,6 +37,6 @@ public class Book {
     }
     @Override
     public String toString(){
-       return "This is book title "+this.title+"\nThe author name is "+this.author+"\nAnd there id is "+this.id+"\nAnd is wether published "+this.issued;
+       return "This is book title "+this.title+"\nThe author name is "+this.author+"\nAnd there id is "+this.id+"\nAvailabily is "+this.issued;
     }
 }
