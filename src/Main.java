@@ -33,16 +33,18 @@ public class Main {
 
     }
     Library f1 = new Library();
-    f1.addBook(new Book(2134354324,"kishore v","tiles of no where",false));
-    f1.addBook(new Book(3453454,"jayasree s","tiles of everywhere",false));
-    f1.addBook(new Book(215354324,"jk","tiles of final path",true));
+    f1.addBook(new Book(2134354324,"tiles of no where","kishore v",false));
+    f1.addBook(new Book(3453454,"tiles of everywhere","jayasree s",false));
+    f1.addBook(new Book(215354324,"tiles of final path","jk",false));
+    f1.addBook(new Book(215354324,"tiles of dead path","rishini",false));
 
-    f1.registerMember(new Member("5465788","jonith"));
+
+        f1.registerMember(new Member("5465788","jonith"));
     f1.registerMember(new Member("4545614","jai"));
     f1.registerMember(new Member("53252345","lakshit"));
     f1.registerMember(new Member("5543543","barath"));
 
-    f1.listAllMembers();
+
 
    f1.lisAllBooks();
    f1.listAvailableBooks();

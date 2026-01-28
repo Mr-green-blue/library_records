@@ -5,11 +5,11 @@ public class Member {    //parent class
         this.memberld=memberld;
         this.name=name;
     }
-    void getMemberld(){
-        System.out.println(this.memberld);
+    String getMemberld(){
+         return this.memberld;
     }
-    void getName(){
-        System.out.println(this.name);
+    String getName(){
+        return this.name;
     }
     void setMemberld(String memberld){
         this.memberld=memberld;

@@ -11,14 +11,14 @@ public class Book {
         this.author=author;
         this.issued=issued;
     }
-    void get_id(){
-        System.out.println(this.id);
+    int get_id(){
+        return this.id;
     }
-    void get_title(){
-        System.out.println(this.title);
+    String get_title(){
+        return this.title;
     }
-    void get_author(){
-        System.out.println(this.author);
+    String get_author(){
+         return this.author;
     }
     boolean get_issued(){
         return this.issued;
